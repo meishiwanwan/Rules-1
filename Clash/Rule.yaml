@@ -8460,7 +8460,11 @@
 
 
 
-# > AbemaTV
+# > ABC
+- DOMAIN-SUFFIX,edgedatg.com,GlobalTV
+- DOMAIN-SUFFIX,go.com,GlobalTV
+
+# > Abema TV
 # - USER-AGENT,AbemaTV*,GlobalTV
 - DOMAIN-SUFFIX,abema.io,GlobalTV
 - DOMAIN-SUFFIX,abema.tv,GlobalTV
@@ -8517,12 +8521,14 @@
 
 # > Disney Plus
 # - USER-AGENT,Disney*,GlobalTV
+- DOMAIN,cdn.registerdisney.go.com,GlobalTV
+- DOMAIN-SUFFIX,bamgrid.com,GlobalTV
+- DOMAIN-SUFFIX,conviva.com,GlobalTV
+- DOMAIN-SUFFIX,disney.demdex.net,GlobalTV
 - DOMAIN-SUFFIX,disneyplus.com,GlobalTV
 - DOMAIN-SUFFIX,disney-plus.net,GlobalTV
 - DOMAIN-SUFFIX,dssott.com,GlobalTV
-- DOMAIN-SUFFIX,bamgrid.com,GlobalTV
 - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,GlobalTV
-- DOMAIN,cdn.registerdisney.go.com,GlobalTV
 
 # > encoreTVB
 # - USER-AGENT,encoreTVB*,GlobalTV
@@ -8546,11 +8552,11 @@
 # - USER-AGENT,HBO%20NOW*,GlobalTV
 - DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,GlobalTV
 - DOMAIN-SUFFIX,hbo.com,GlobalTV
-- DOMAIN-SUFFIX,hbogo.com,GlobalTV
 - DOMAIN-SUFFIX,hboasia.com,GlobalTV
 - DOMAIN-SUFFIX,hbogo.com,GlobalTV
 - DOMAIN-SUFFIX,hbogoasia.com,GlobalTV
 - DOMAIN-SUFFIX,hbogoasia.hk,GlobalTV
+- DOMAIN-SUFFIX,hbonow.com,GlobalTV
 
 # > Hulu(フールー)
 - DOMAIN-SUFFIX,happyon.jp,GlobalTV
@@ -9386,6 +9392,8 @@
 - DOMAIN-SUFFIX,zynamics.com,Proxy
 
 # > Force some domains which are fucked by GFW while resolving DNS,or do not respect the system Proxy
+# - USER-AGENT,WhatsApp*,Proxy
+
 - DOMAIN-KEYWORD,Appledaily,Proxy
 - DOMAIN-KEYWORD,beetalk,Proxy
 - DOMAIN-KEYWORD,blogspot,Proxy
